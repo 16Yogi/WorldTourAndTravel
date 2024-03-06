@@ -1,0 +1,41 @@
+/* ================ CREATE AC FORM ==================== */
+
+#container-fluid-CAC{
+   height: 700px;
+   /* background-image: url('https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+}
+#container-fluid-CAC #container-CAC{
+
+}
+#container-fluid-CAC #container-CAC .mainCAC{
+   height: auto;
+   width: 100%;
+   /* background-color: aqua; */
+}
+#container-fluid-CAC #container-CAC .mainCAC .childCAC{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    /* background-color: blueviole/t; */
+}
+#container-fluid-CAC #container-CAC .mainCAC .childCAC .wrapCAC{
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(58, 85, 235);
+    margin: 0 auto;
+    padding: 0 50px;
+    background-color: rgba(230, 223, 223, 0.966);
+}
+#container-fluid-CAC #container-CAC .mainCAC .childCAC .wrapCAC h3{
+    text-align: center;
+}
+#container-fluid-CAC #container-CAC .mainCAC .childCAC .wrapCAC .formCAC{
+   padding: 20px 2px;
+}
+#container-fluid-CAC #container-CAC .mainCAC .childCAC .wrapCAC .formCAC form button{
+    display: block;
+    margin: 0 auto;
+}

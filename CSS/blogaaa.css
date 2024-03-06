@@ -1,0 +1,108 @@
+/* blog */
+:root{
+   --mainBackground:rgb(21, 23, 31);
+   --mainTransperentbg:rgba(21, 23, 31, 0.322);
+   --mainFontsize:30px;
+   --testsize:15px;
+   --textsmall:12px;
+   --textColor:white;
+   --bannerTextC:rgb(115, 176, 255);
+   --bannerTextsmall:rgb(255, 222, 37);
+   --bannerTextsmalls:rgb(255, 204, 37);
+   --textdark:rgb(21, 23, 31);
+   --button:rgba(7, 109, 192, 0.205);
+   --buttohover:rgb(18, 110, 248);
+   --textHover:rgb(37, 113, 228);
+   --smalltext:rgb(7, 45, 88);
+   --servicebg:rgba(7, 8, 14, 0.363);
+}
+
+#container-fluid-blog{
+    /* background-color: rgb(20, 141, 105); */
+}
+#container-fluid-blog #container-blog{
+
+}
+#container-fluid-blog #container-blog .mainBlog{
+   height: auto;
+   width: 100%;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog{
+   height: auto;
+   width: 100%;
+   /* text-align: center; */
+   padding: 20px 0;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog h3{
+   line-height: 50px;
+   text-align: center;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog{
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog{
+   position: relative;
+   height: 300px;
+   width:22%;
+   border-top-left-radius: 20px;
+   border-end-end-radius: 20px;
+   background-image:url('https://cdn.pixabay.com/photo/2019/03/14/10/20/copenhagen-4054563__340.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog .textBlog{
+   position: absolute;
+   top: 150px;
+   height: 150px;
+   width: 100%;
+   border-top-left-radius: 20px;
+   border-end-end-radius: 20px;
+   /* margin: 150px 0; */
+   padding:0 20px;
+   color: white;
+   background-color: rgb(0,0,0,0.5);
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog .textBlog p{
+  font-size: 13px;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog .textBlog p:nth-child(1){
+   font-weight: 700;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog .textBlog p:nth-child(2){
+   font-size: 12px;
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog .textBlog button{
+   height: 35px;
+   width: 50%;
+   font-size: 14px;
+   font-weight: 700;
+   border: 1px solid white;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px var(--bannerTextC);
+   display: block;
+   margin: 0 auto;
+   color: white;
+   /* background-color: transparent; */
+   /* background-color: ; */
+   color: var(--mainBackground);
+   background-color: var(--bannerTextsmalls);
+}
+#container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog .textBlog button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: var(--buttohover);
+    /* background-color: rgba(223, 186, 22, 0.877); */
+    box-shadow: 2px 2px 5px var(--mainBackground);
+}
+@media (max-width:920px) and (min-width:200px){
+    #container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog{
+       display: block;
+    }
+    #container-fluid-blog #container-blog .mainBlog .childBlog .wrapBlog .itemBlog{
+        width: 80%;
+        margin: 20px auto;
+    }
+}

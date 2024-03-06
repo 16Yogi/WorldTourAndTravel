@@ -1,0 +1,87 @@
+/* Running Program */
+:root{
+    --mainBackground:rgb(21, 23, 31);
+    --mainTransperentbg:rgba(21, 23, 31, 0.322);
+    --mainFontsize:30px;
+    --testsize:15px;
+    --textsmall:12px;
+    --textColor:white;
+    --bannerTextC:rgb(115, 176, 255);
+    --bannerTextsmall:rgb(255, 222, 37);
+    --bannerTextsmalls:rgb(255, 204, 37);
+    --textdark:rgb(21, 23, 31);
+    --button:rgba(7, 109, 192, 0.205);
+    --buttohover:rgb(18, 110, 248);
+    --textHover:rgb(37, 113, 228);
+    --smalltext:rgb(7, 45, 88);
+    --servicebg:rgba(7, 8, 14, 0.363);
+}
+
+#container-fluid-running{
+    /* padding: 20px 0; */
+    background-image: url('https://cdn.pixabay.com/photo/2019/11/08/18/16/london-4612015__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#container-fluid-running #container-running{
+   
+}
+#container-fluid-running #container-running .mainRunning{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-running #container-running .mainRunning .childRunning{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-running #container-running .mainRunning .childRunning .wrapRunning{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+#container-fluid-running #container-running .mainRunning .childRunning .wrapRunning .textRun{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(137, 43, 226, 0.253); */
+}
+#container-fluid-running #container-running .mainRunning .childRunning .wrapRunning .textRun h3{
+    font-size: 40px;
+    line-height: 80px;
+    color: white;
+}
+#container-fluid-running #container-running .mainRunning .childRunning .wrapRunning .textRun p{
+    font-weight: 700;
+    padding: 30px 0;
+    color: white;
+}
+#container-fluid-running #container-running .mainRunning .childRunning .wrapRunning .textRun button{
+    height: 44px;
+    width: 18%;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--bannerTextC);
+    margin: 0 50px;
+    color: var(--mainBackground);
+    /* background-color: transparent; */
+    background-color: var(--bannerTextsmalls);
+
+}
+#container-fluid-running #container-running .mainRunning .childRunning .wrapRunning .textRun button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: var(--buttohover);
+    /* background-color: rgba(223, 186, 22, 0.877); */
+    box-shadow: 2px 2px 5px var(--mainBackground);
+}
+
+@media (max-width:920px) and (min-width:200px){
+    #container-fluid-running #container-running .mainRunning .childRunning .wrapRunning .textRun button{
+        width: 30%;
+        font-size: 14px;
+        margin: 0 10px;
+    /* :rgb(255, 204, 37); */
+    background-color: var(--bannerTextsmalls);
+    }
+}

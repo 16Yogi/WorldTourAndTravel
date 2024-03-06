@@ -1,0 +1,163 @@
+/* PayMent GetWay */
+:root{
+    --mainBackground:rgb(21, 23, 31);
+    --mainTransperentbg:rgba(21, 23, 31, 0.322);
+    --mainFontsize:30px;
+    --testsize:15px;
+    --textsmall:12px;
+    --textColor:white;
+    --bannerTextC:rgb(115, 176, 255);
+    --bannerTextsmall:rgb(255, 222, 37);
+    --bannerTextsmalls:rgb(255, 204, 37);
+    --textdark:rgb(21, 23, 31);
+    --button:rgba(7, 109, 192, 0.205);
+    --buttohover:rgb(18, 110, 248);
+    --textHover:rgb(37, 113, 228);
+    --smalltext:rgb(7, 45, 88);
+    --servicebg:rgba(7, 8, 14, 0.363);
+ }
+
+#container-fluid-pay{
+    height: 700px;
+    /* width: ; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background- */
+    /* background-blend-mode: color; */
+    background-image: url('https://images.pexels.com/photos/4525148/pexels-photo-4525148.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+#container-fluid-pay #container-pay{
+    /* height: auto; */
+}
+#container-fluid-pay #container-pay .mainPay{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay{
+   height: auto;
+   width: 80%;
+   margin: 0 auto;
+   padding: 50px 0;
+   /* background-color: blueviolet; */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay{
+    height: 500px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 3px rgb(216, 216, 216);
+    margin: 0 auto;  
+    /* background-color: ; */
+    background-color: rgb(253, 254, 255);
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay h3{
+    text-align: center;
+    line-height: 50px;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .cardSelect{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    /* background-color: aqua; */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .cardSelect span{
+   font-weight: 700;
+   text-align: center;
+   /* margin: 0 10px; */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .cardSelect input{
+   /* height: 42px; */
+   display: inline-block;
+   /* margin-right: 20px; */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .cardSelect input:nth-child(2){
+    /* height: 50px ; */
+    margin-right: 20px;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .cardSelect input:nth-child(3){
+   margin-left: 10px;
+}
+
+/*  */
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .payarea{
+   height: auto;
+   width: 84%;
+   margin: 0 auto;
+   /* background-color: blueviolet; */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .payarea input{
+   height: 45px;
+   width: 100%;
+   border: 2px solid rgba(96, 99, 255, 0.849);
+   /* border-radius: 5px; */
+   outline: none;
+   padding: 0 2%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .payarea p{
+   font-weight: 600;
+}
+
+/*  */
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a  .payarea:nth-child(3){
+   display: flex;
+   /* text-align: center; */
+   margin: 30px auto;
+   /* background-color: rgb(69, 185, 59); */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a  .payarea:nth-child(3) span{ 
+
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .payarea .payarea-a{
+   height: auto;
+   width: 100%;
+   /* text-align: center; */
+   margin: 0 auto;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .payarea .payarea-a input{
+   height: 45px;
+   width: 61%;
+   border: 2px solid rgba(96, 99, 255, 0.849);
+   /* border-radius: 5px; */
+   outline: none;
+   padding: 0 2%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .payarea .payarea-a span{
+   font-weight: 600;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .paybtn{
+    height: auto;
+    width: 84%;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .paybtn .paybtn-a{
+   /* height: auto; */
+   width: 50%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .paybtn .paybtn-a span{
+  font-weight: 600;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .paybtn .paybtn-a input,button{
+   height: 45px;
+   width: 62%;
+   border: 2px solid rgba(96, 99, 255, 0.849);
+   /* border-radius: 5px; */
+   outline: none;
+   padding: 0 5%;
+}
+#container-fluid-pay #container-pay .mainPay .childPay .wrapPay .pay .pay-a .paybtn .paybtn-a button{
+   width: 100%;
+   font-weight: 700;
+   box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+   color: white;
+   background-color: var(--buttohover);
+}

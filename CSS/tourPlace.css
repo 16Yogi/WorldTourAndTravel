@@ -1,0 +1,149 @@
+/* =============== tour place ======================= */
+:root{
+    --mainBackground:rgb(21, 23, 31);
+    --mainTransperentbg:rgba(21, 23, 31, 0.322);
+    --mainFontsize:30px;
+    --testsize:15px;
+    --textsmall:12px;
+    --textColor:white;
+    --bannerTextC:rgb(115, 176, 255);
+    --bannerTextsmall:rgb(255, 222, 37);
+    --bannerTextsmalls:rgba(70, 116, 145, 0.637);
+    --textdark:rgb(21, 23, 31);
+    --button:rgba(7, 109, 192, 0.205);
+    --buttohover:rgb(18, 110, 248);
+    --textHover:rgb(37, 113, 228);
+    --smalltext:rgb(7, 45, 88);
+    --servicebg:rgba(7, 8, 14, 0.363);
+    --bg:rgba(182, 180, 180, 0.5);
+    --bga:rgba(27, 73, 133, 0.466);
+}
+
+#container-fluid-tourPlace{
+    /* padding: 0 100px; */
+    /* background-color: brown; */
+   background-color: var(--bg);
+}
+#container-fluid-tourPlace #container-tourPlace{
+
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace{
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace h2{
+   font-size: var(--mainFontsize);
+   text-align: center;
+   line-height: 80px;
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace{
+    position: relative;
+    height: 300px;
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px; 
+    /* box-shadow: 5px -5px 9px -5px white; */
+    border: 1px solid white;
+    box-shadow: 2px 2px 3px 4px rgba(48, 100, 241, 0.445);
+    /* padding: 0 20px; */
+    background-image:url('https://cdn.pixabay.com/photo/2015/04/20/13/12/little-boy-731165__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace:nth-child(1){
+    background-image: url('https://cdn.pixabay.com/photo/2013/09/11/00/28/innsbruck-181081__340.jpg');
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace:nth-child(2){
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/16/13/34/roussillon-1521763__340.jpg');
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace:nth-child(3){
+    background-image: url('https://cdn.pixabay.com/photo/2014/08/26/21/47/pool-428591__340.jpg');
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace .textTourplace{
+    position: absolute;
+    top: 150px;
+    height: 150px;
+    /* margin: 150px 0; */
+    padding: 5px 10px; 
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px; 
+    background-color: var(--mainBackground);
+    /* background-color: rgb(0,0,0,0.5); */
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace .textTourplace p{
+    font-size: 16px;
+    font-weight: 700;
+    color:wheat;
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace .textTourplace p:nth-child(2){
+   font-weight: 300;
+   font-size: 14px;
+   color: var(--textColor);
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace .textTourplace:hover{
+    /* background-color: rgb(0,0,0,0.8); */
+}
+/* btn */
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace button{
+   width: 40%;
+   border: 2px solid var(--mainBackground);
+   border-radius: 5px;
+   display: block;
+   margin: 20px auto;
+   color: var(--textColor);
+   background-color: var(--bannerTextsmalls);
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace button:hover{
+   transition: 0.5s;
+   color: var(--textColor);
+   background-color: var(--buttohover);
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace button a{
+    /* height: 30px; */
+    /* width: 100%; */
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 17px;
+   /* display: block; */
+   /* margin: 0 auto; */
+   color: var(--mainBackground);
+}
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace button a:hover{
+    transition: 0.5s;
+    color: var(--textColor);
+
+}
+@media (max-width:920px) and (min-width:200px){
+    #container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace h2{
+         /* overflow: auto; */
+        /* font-size: 20px; */
+    }
+    #container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace{
+        padding: 0 2rem;
+        /* width: 80%; */
+        display: block;
+    }
+    #container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace{
+        width: 80%;
+        margin: 20px auto;
+    }
+    #container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace .textTourplace{
+        background-color: var(--mainBackground);   
+    }
+#container-fluid-tourPlace #container-tourPlace .mainTourplace .childTourplace .wrapTourplace .itemTourplace .textTourplace p:nth-child(2){
+        font-size: 12px;
+        background-color: var(--mainBackground);
+    }
+}

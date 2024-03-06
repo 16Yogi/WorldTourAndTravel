@@ -1,0 +1,185 @@
+:root{
+    --mainBackground:rgb(21, 23, 31);
+    --mainTransperentbg:rgba(21, 23, 31, 0.322);
+    --mainFontsize:30px;
+    --testsize:15px;
+    --textsmall:12px;
+    --textColor:white;
+    --bannerTextC:rgb(115, 176, 255);
+    --bannerTextsmall:rgb(255, 222, 37);
+    --bannerTextsmalls:rgb(255, 204, 37);
+    --textdark:rgb(21, 23, 31);
+    --button:rgba(7, 109, 192, 0.205);
+    --buttohover:rgb(18, 110, 248);
+    --textHover:rgb(37, 113, 228);
+    --smalltext:rgb(7, 45, 88);
+    --servicebg:rgba(7, 8, 14, 0.363);
+ }
+
+#container-fluid-footer{
+    /* background-color: black; */
+    background-color: var(--mainBackground);
+}
+#container-fluid-footer #container-footer{
+
+}
+#container-fluid-footer #container-footer .mainFooter{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter{
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter{
+    height: auto;
+    width: 100%;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter .secFooter{
+   height: auto;
+   width: 100%;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top{
+   height: auto;
+   width: 100%;
+   /* background-color: brown; */
+}
+/* footer sec top */
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter{
+   height: auto;
+   width: 100%;
+   display: flex;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter .iconFooter{
+   height: 50px;
+   width: 50px;
+   line-height: 50px;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 8px;
+   /* color: wheat; */
+   background-color: white;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter .iconFooter:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: var(--buttohover);
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter .iconFooter a{
+    text-decoration: none;
+    color: var(--mainBackground);
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter .iconFooter a:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: var(--buttohover);
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter .iconFooter i{
+   
+}
+
+/* footer sec center */
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter{
+   height: auto;
+   width: 100%;
+   display: flex;
+   padding: 10px 0;
+   color: white;
+   /* background-color: blueviolet; */
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper{
+   height: auto;
+   width: 30%;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper h4{
+   line-height: 60px;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper p{
+   cursor: pointer;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper p a{
+    text-decoration: none;
+    color: white;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter #footerFoom{
+    width: 40%;
+    /* background-color: bisque; */
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper input{
+    height: 40px;
+    width: 49.5%;
+    display:inline-block;
+    /* display: flex; */
+    border: none;
+    /* border-radius:5px; */
+    outline: none;
+    padding: 2%;
+}
+
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper textarea{
+    height: 150px;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+    padding: 2%;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper button{
+    height: 40px;
+    width: 20%;
+    border: none;
+    outline:none;
+}
+/* bottom footer */
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #bottom .wrapperFooter{
+   height: auto;
+   width: 100%;
+   text-align: center;
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #bottom .wrapperFooter hr{
+   height: 4px;
+   width: 100%;
+   /* background-color: var(--buttohover); */
+   background-color: var(--bannerTextC);
+}
+#container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #bottom  .wrapperFooter span{
+   text-align: center;
+   color: beige;
+}
+@media (max-width:920px) and (min-width:200px){
+    #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #top .wrapperFooter{
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    }
+    #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter{
+        display: block;
+        /* background-color: aqua */
+    }
+    #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        /* background-color: blueviolet; */
+    }
+    #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter #footerFoom{
+        /* height: 400p */
+        /* background-color: red; */
+    }
+    #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper input{
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+    }
+    #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper textarea{
+        height: 100px;
+    }
+   #container-fluid-footer #container-footer .mainFooter .childFooter .wrapFooter #center .wrapperFooter .itemWrapper button{
+       width: 50%;
+       font-weight: 700;
+       font-size: 12px;
+       display: block;
+       margin: 0 auto;
+    }
+}

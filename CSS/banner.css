@@ -1,0 +1,192 @@
+:root{
+    --mainBackground:rgb(21, 23, 31);
+    --mainTransperentbg:rgba(21, 23, 31, 0.322);
+    --mainFontsize:30px;
+    --testsize:15px;
+    --textsmall:12px;
+    --textColor:white;
+    --bannerTextC:rgb(115, 176, 255);
+    --bannerTextsmall:rgb(255, 222, 37);
+    --textdark:rgb(21, 23, 31);
+    --button:rgba(7, 109, 192, 0.205);
+    --buttohover:rgb(18, 110, 248);
+    --textHover:rgb(37, 113, 228);
+}
+#banner-container-fluid{
+    height: 600px;
+    /* background-image: url('https://images.pexels.com/photos/259571/pexels-photo-259571.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+    /* background-image: url('https://images.pexels.com/photos/417054/pexels-photo-417054.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+    /* background-image: url('https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/10/20/17/41/hot-air-balloon-1756150__340.jpg'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/07/05/18/35/aircraft-1499171__340.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#banner-container-fluid #banner-container{
+
+}
+#banner-container-fluid #banner-container .mainBanner{
+   height: auto;
+   width: 100%;
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner{
+    height: auto;
+    width: 100%;
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner{
+    height: auto;
+    width: 100%;
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner{
+   height: auto;
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 20px 0;
+   color: rgb(255, 255, 255);
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner h2{
+   font-size: 55px;
+   /* font-family: 'Great Vibes', cursive; */
+   /* font-family: 'Great Vibes', cursive; */
+font-family: 'Lobster', cursive;
+   padding: 20px 0;
+   color: var(--textColor);
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner h2 span{
+   color:var(--bannerTextC);
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner p{
+   font-weight: 700;
+    /* color: rgb(59, 75, 216); */
+   color: var(--bannerTextsmall);
+   /* color: rgb(178, 185, 153); */
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .buttonBanner{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    /* background-color: aquamarine; */
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .buttonBanner button{
+    height: 40px;
+    width: 25%;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* display: block; */
+    box-shadow: 2px 2px 2px white;
+    margin:0 50px;
+    /* padding: 0 50px; */
+    /* color: var(--textHover); */
+    color: black;
+    background-color:var(--bannerTextsmall);
+    /* background-color: transparent; */
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .buttonBanner button:hover{
+    transition: 0.5s;
+    color: var(--textColor);
+    /* background-color: rgba(25, 175, 168, 0.548); */
+    background-color: var(--textHover); 
+}
+
+
+/* ======== SING IN PAGE ========== */
+.modal{
+    width: 30%;
+ }
+ .modal-body input{
+     height: 40px;
+     width: 100%;
+     border: 1px solid rgb(26, 142, 236);
+     border-radius: 4px;
+     display: block;
+     outline: none;
+     font-size: 15px;
+     margin-top: 20px;
+     padding: 0 5%;
+ }
+ .modal-body span{
+     line-height: 40px;
+     /* display: inline-block; */
+     text-decoration: none;
+     padding: 50px 0;
+ }
+ .modal-body .link{
+     height: 80px;
+     width: 50%;
+     margin: 0 auto;
+     padding: 20px 0;
+     display: flex;
+     justify-content: space-between;
+     /* background-color: aqua; */
+ }
+ .modal-body .link .a{
+     height: 50px;
+     width: 50px;
+     text-align: center;
+     line-height: 50px;
+     border-radius: 50%;
+     box-shadow: 2px 2px 2px gray;
+     cursor: pointer;
+     color: var(--buttohover);
+     /* background-color: var(--buttohover); */
+ }
+ .modal-body .link .a:hover{
+    transition: 0.5s;
+    color: white;
+     background-color: var(--buttohover);
+ }
+ .modal-footer button{
+     height: 40px;
+     width: 100%;
+     display: block;
+     margin: 0 auto;
+ }
+ 
+
+ /* Media Query */
+
+ @media (max-width:920px) and (min-width:200px){
+#banner-container-fluid{
+    height: 350px;
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner{
+    /* padding: 0 2rem; */
+    padding: 0;
+    /* background-color: aquamarine; */
+}
+    #banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        /* background-color: rgba(255, 72, 0, 0.24); */
+    }
+    #banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .buttonBanner button{
+        width: 35%;
+        /* background-color: aqua; */
+    }
+    #banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .buttonBanner{
+       width: 100%;
+       /* background-color: aqua; */
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner h2{
+   font-size: var(--mainFontsize);
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .textBanner p{
+   font-size: var(--textsmall);
+}
+#banner-container-fluid #banner-container .mainBanner .childBanner .wrapBanner .buttonBanner button{
+    height: 40px;
+    width: 26%;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* display: block; */
+    margin: 0 23px
+}
+
+
+ }

@@ -1,0 +1,318 @@
+:root{
+    --mainBackground:rgb(21, 23, 31);
+    --mainTransperentbg:rgba(21, 23, 31, 0.322);
+    --mainFontsize:30px;
+    --testsize:15px;
+    --textsmall:12px;
+    --textColor:white;
+    --bannerTextC:rgb(115, 176, 255);
+    --bannerTextsmall:rgb(255, 222, 37);
+    --bannerTextsmalls:rgb(255, 204, 37);
+    --textdark:rgb(21, 23, 31);
+    --button:rgba(7, 109, 192, 0.205);
+    --buttohover:rgb(18, 110, 248);
+    --textHover:rgb(37, 113, 228);
+    --smalltext:rgb(7, 45, 88);
+    --servicebg:rgba(7, 8, 14, 0.363);
+    --bg:rgba(182, 180, 180, 0.5);
+    --bga:rgba(27, 73, 133, 0.466);
+}
+#service-container-fluid{
+    /* background-color: rgba(201, 198, 198, 0.5); */
+   background-color:var(--bg);
+}
+#service-container-fluid #service-container{
+
+}
+#service-container-fluid #service-container .mainService{
+   height: auto;
+   width: 100%;
+}
+#service-container-fluid #service-container .mainService .childService{
+   height: auto;
+   width: 100%;
+}
+#service-container-fluid #service-container .mainService .childService h2{
+   font-size: var(--mainFontsize);
+   line-height: 50px;
+   text-align: center;
+   /* color: var(--mainBackground); */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService{
+   height: auto;
+   width: 100%;
+   padding: 20px 0;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService{
+   height: auto;
+   width: 100%;
+}
+
+/* search box */
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar{
+   height:auto;
+   width: 100%;
+   display: flex;
+   border-radius: 8px;
+   box-shadow: 2px 2px 5px rgb(5, 5, 5);
+   padding: 11px 0;
+   background-color:var(--bga);
+   /* background-color: rgb(11, 126, 126); */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara{
+    height: auto;
+    width: 33.33%;
+    display: flex;
+    /* padding: 0 10px; */
+    /* background-color: blue; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara i{
+   line-height: 40px;
+   font-weight: 700;
+   padding: 0 10px;
+   color: white;
+
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara span{
+   font-size: 15px;
+   font-weight: 700;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara input{
+   height: 35px;
+   width: 45%;
+   outline:none;
+   border-radius: 5px;
+   border: 1px solid var(--buttohover);
+   padding: 0 2%;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara button{
+   width: 20%;
+   font-size: 15px;
+   font-weight: 700;
+   text-align: center;
+   border: ;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(2){
+   width: 40%;
+   /* background-color: blueviolet; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(2) span{
+   /* line-height: 20px; */
+   color: white;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(2) input{
+   width: 59%;
+   font-size: 12px;
+}
+/* -----  */
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(3){
+   width: auto;
+   /* background-color: blue; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(3) span{
+   line-height: 35px;
+   color: white;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(3) input{
+
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(3) #serbtn{
+   width: 25%;
+   font-size: 13px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: capitalize;
+   box-shadow: 2px 2px 2px white;
+   border: none;
+   display: inline-block;
+   margin:0 50px;
+   padding: 0;
+   background-color: var(--bannerTextsmall);
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(3) #serbtn:hover{
+   transition: 0.5s;
+   color:white;
+   background-color: var(--buttohover);
+}
+
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara .serA{
+   height: auto;
+   width: 50%;
+   /* background-color: brown; */
+}
+
+/* --------- */
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService{
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   /* margin: 10px 0; */
+   padding: 20px 0;
+   /* background-color: brown; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea{
+   position: relative;
+   height: 300px;
+   width: 22%;
+   border-top-left-radius: 20px;
+   border-end-end-radius: 20px;
+   box-shadow: 5px -5px 9px -5px var(--buttohover);
+   /* margin: 50px 0; */
+   background-image: url('https://cdn.pixabay.com/photo/2015/12/29/18/25/dubai-1113262__340.jpg');
+   /* background-image: url('https://cdn.pixabay.com/photo/2019/06/02/00/36/plane-4245416__340.jpg'); */
+   /* background-image: url('https://media.istockphoto.com/id/1272521633/vector/happy-travel-case-vector-illustration.jpg?s=612x612&w=0&k=20&c=MHlTTH2n5MUp8G0dqAvJjiKs0dgZ-re8CohaB21HegU='); */
+   background-size: cover;
+   /* background-color: blueviolet; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea:nth-child(2){
+   background-image: url('https://cdn.pixabay.com/photo/2014/08/06/20/19/reception-411971__340.jpg');
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea:nth-child(3){
+   background-image: url('https://cdn.pixabay.com/photo/2016/09/01/09/41/holiday-motel-1635630__340.jpg');
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea:nth-child(4){
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/15/04/20/las-vegas-4849986__340.jpg');
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea{
+    border: 1px solid wheat;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService{
+   position: absolute;
+   top: 152px;
+   left: 0;
+   height: 150px;
+   width: 100%;
+   /* text-align: center; */
+   border-top-left-radius: 20px;
+   border-end-end-radius: 20px;
+   /* margin: 150px 0; */
+   padding: 5px 10px;
+   background-color: var(--mainBackground);
+   /* background-color: rgb(0,0,0,0.5); */
+}
+/* hotel */
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService #servicea{
+   height: 350px;
+   width: 30%;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService #servicea #textServicea{
+    position: absolute;
+    top: 170px;
+    height: 180px;
+   /* margin: 170px 0; */
+}
+/* end */
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService p{
+   font-size: 12px;
+   color: var(--textColor);
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService p:nth-child(1){
+   font-size: 15px;
+   font-weight: 700px;
+   color: wheat;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService button{
+   height: 30px;
+   width: 40%;
+   display: block;
+   font-size: 12px;
+   font-weight: 700;
+   border: 1px solid white;
+   border-radius: 5px;
+   box-shadow: 2px 2px 3px white;
+   margin: 0 auto;
+   /* color: white; */
+   background-color: var(--bannerTextsmalls);
+   /* background-color: var(--smalltext); */
+   /* background-color: var(--textColor); */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService button a{
+   text-decoration: none;
+   color: var(--mainBackground);
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService button:hover{
+    transition: 0.5s;
+    color: white;
+   background-color: var(--textHover);
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService button a:hover{
+   color: white;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea .textService:hover{
+   color: white;
+   /* background-color: rgb(0,0,0,0.8); */
+}
+
+/* ============= MAP =================== */
+#service-container-fluid #map{
+    height: auto;
+    width: 100%;
+}
+/* .container-fluid #map h4{
+
+} */
+#service-container-fluid #map .wrapper{
+   height: auto;
+   width: 100%;
+}
+#service-container-fluid #map .wrapperwrapperService .map{
+   height: auto;
+   width: 100%;
+   background-color: black;
+}
+#service-container-fluid #map .wrapperService .map iframe{
+   height: 500px;
+   width: 100%;
+}
+
+@media (max-width:920px) and (min-width:200px){
+#service-container-fluid #service-container .mainService .childService .wrapService{
+  padding: 0;
+  /* text-align: center; */
+}
+
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService{
+   /* height: 500px; */
+   height:auto;
+   display: block;
+}
+
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService .servicea{
+    /* position: absolute; */
+   /* height: auto; */
+   width: 65%;
+   margin: 20px auto;
+   /* background-color: aquamarine; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService #servicea{
+    position: relative;
+    height: 300px;
+    width: 65%;
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .wrapperService #servicea #textServicea{
+    position: absolute;
+    top: 152px;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService h3{
+   text-align: center;
+}
+/* search bar */
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar{
+    display:block;
+    padding: 10px 5px;
+    /* background-color: aqua; */
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara{
+   width: 100%;
+}
+#service-container-fluid #service-container .mainService .childService .wrapService .itemService .serBar .serBara:nth-child(2){
+    width: 100%;
+    padding: 10px 0;
+}
+}
